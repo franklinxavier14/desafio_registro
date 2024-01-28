@@ -1,0 +1,71 @@
+/*  #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+  /* text-align: center; 
+  
+  
+} */
+body {
+  /* Establecer un gradiente de fondo */
+  background: linear-gradient(to right, #7fd8be, #49a09d);
+  /* Ajustar el estilo del texto para que sea legible en el fondo */
+  color: #fff;
+  /* Evitar que el fondo se repita en caso de que el contenido no llene toda la página */
+  background-size: cover;
+  /* Añadir transición para suavizar cambios en el fondo */
+  transition: background 0.5s ease;
+}
+.container-fluid {
+  padding: 2rem;
+}
+
+.custom-listado-width {
+  width: 1100px;
+  margin-right: 40px;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+@media (max-width: 768px) {
+  .custom-listado-width {
+    width: 100%;
+    margin-right: 0;
+  }
+}
